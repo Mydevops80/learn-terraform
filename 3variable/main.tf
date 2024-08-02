@@ -39,6 +39,6 @@ output "class" {
 variable "x" {
 
 }
-output "c" {
-  value = var.c
+output "x" {
+  value = var.x
 }
