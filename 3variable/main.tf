@@ -19,3 +19,10 @@ variable "b" {
 output "b" {
   value =  " value of b is ${var.b}"
 }
+
+variable "ab" {
+  default = [12,35,"abc","hello",false]
+}
+output "ab" {
+  value = "value of ab ${var.ab[3]}"
+}
