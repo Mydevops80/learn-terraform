@@ -34,5 +34,5 @@ variable "class" {
   }
 }
 output "class" {
-  value = "i am learning ${var.class[course]} and the trainer is ${var.class[trainer]} "
+  value = "i am learning ${var.class["course"]} and the trainer is ${var.class["trainer"]} "
 }
