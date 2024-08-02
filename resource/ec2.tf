@@ -4,6 +4,6 @@ resource "aws_instance" "frontend" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "HEllO HI "
+    Name = "frontend"
   }
 }
