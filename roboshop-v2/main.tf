@@ -32,6 +32,7 @@ resource "aws_route53_record" "mongo" {
   name    = "mongo.${var.domain_name}"
   type    = "A"
   ttl     = 15
+
   records = [aws_instance.frontend.private_ip]
 }
 resource "aws_instance" "catalogue" {
